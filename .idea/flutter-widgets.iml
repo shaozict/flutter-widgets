@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_barcodes/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_barcodes/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_barcodes/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_barcodes/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_calendar/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_calendar/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_calendar/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_calendar/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_charts/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_charts/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_charts/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_charts/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_core/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_core/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_core/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_core/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_datagrid/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_datagrid/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_datagrid/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_datagrid/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_datepicker/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_datepicker/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_datepicker/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_datepicker/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_gauges/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_gauges/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_gauges/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_gauges/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_maps/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_maps/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_maps/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_maps/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_pdf/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_pdf/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_pdf/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_pdf/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_pdfviewer/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_pdfviewer/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_pdfviewer/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_pdfviewer/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_signaturepad/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_signaturepad/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_signaturepad/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_signaturepad/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_sliders/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_sliders/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_sliders/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_sliders/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_xlsio/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_xlsio/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_xlsio/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_flutter_xlsio/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_localizations/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_localizations/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_localizations/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_localizations/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_officechart/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_officechart/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_officechart/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_officechart/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_officecore/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_officecore/build" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_officecore/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/syncfusion_officecore/example/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
