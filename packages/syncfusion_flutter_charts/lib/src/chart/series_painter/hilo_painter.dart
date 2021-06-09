@@ -2,12 +2,12 @@ part of charts;
 
 class _HiloPainter extends CustomPainter {
   _HiloPainter(
-      {this.chartState,
-      this.seriesRenderer,
-      this.isRepaint,
-      this.animationController,
-      ValueNotifier<num> notifier,
-      this.painterKey})
+      {required this.chartState,
+      required this.seriesRenderer,
+      required this.isRepaint,
+      required this.animationController,
+      required ValueNotifier<num> notifier,
+      required this.painterKey})
       : chart = chartState._chart,
         super(repaint: notifier);
   final SfCartesianChartState chartState;
@@ -21,17 +21,19 @@ class _HiloPainter extends CustomPainter {
   /// Painter method for Hilo series
   @override
   void paint(Canvas canvas, Size size) {
-    final ChartAxisRenderer xAxisRenderer = seriesRenderer._xAxisRenderer;
-    final ChartAxisRenderer yAxisRenderer = seriesRenderer._yAxisRenderer;
+    final ChartAxisRenderer xAxisRenderer = seriesRenderer._xAxisRenderer!;
+    final ChartAxisRenderer yAxisRenderer = seriesRenderer._yAxisRenderer!;
     final List<CartesianChartPoint<dynamic>> dataPoints =
         seriesRenderer._dataPoints;
     Rect clipRect;
     double animationFactor;
-    final HiloSeries<dynamic, dynamic> series = seriesRenderer._series;
+    final HiloSeries<dynamic, dynamic> series =
+        seriesRenderer._series as HiloSeries;
     CartesianChartPoint<dynamic> point;
-    if (seriesRenderer._visible) {
+    if (seriesRenderer._visible!) {
       canvas.save();
       assert(
+          // ignore: unnecessary_null_comparison
           series.animationDuration != null
               ? series.animationDuration >= 0
               : true,
@@ -44,12 +46,12 @@ class _HiloPainter extends CustomPainter {
               xAxisRenderer._axis.plotOffset, yAxisRenderer._axis.plotOffset));
       canvas.clipRect(axisClipRect);
       animationFactor = seriesRenderer._seriesAnimation != null
-          ? seriesRenderer._seriesAnimation.value
+          ? seriesRenderer._seriesAnimation!.value
           : 1;
 
       int segmentIndex = -1;
       if (seriesRenderer._visibleDataPoints == null ||
-          seriesRenderer._visibleDataPoints.isNotEmpty) {
+          seriesRenderer._visibleDataPoints!.isNotEmpty) {
         seriesRenderer._visibleDataPoints = <CartesianChartPoint<dynamic>>[];
       }
       for (int pointIndex = 0; pointIndex < dataPoints.length; pointIndex++) {
@@ -84,13 +86,14 @@ class _HiloPainter extends CustomPainter {
               animationFactor >= chartState._seriesDurationFactor) &&
           (series.markerSettings.isVisible ||
               series.dataLabelSettings.isVisible)) {
+        // ignore: unnecessary_null_comparison
         assert(seriesRenderer != null,
             'The Hilo series should be available to render a marker on it.');
         canvas.clipRect(clipRect);
         seriesRenderer._renderSeriesElements(
             chart, canvas, seriesRenderer._seriesElementAnimation);
       }
-      if (seriesRenderer._visible && animationFactor >= 1) {
+      if (seriesRenderer._visible! && animationFactor >= 1) {
         chartState._setPainterKey(painterKey.index, painterKey.name, true);
       }
     }

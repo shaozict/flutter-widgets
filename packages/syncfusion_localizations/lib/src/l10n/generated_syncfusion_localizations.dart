@@ -50,12 +50,16 @@ class SfLocalizationsAf extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Werksweek';
 
   @override
+  String get daySpanCountLabel => r'Dag';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'items';
 
   @override
@@ -117,9 +121,6 @@ class SfLocalizationsAf extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'Niks beplan nie. Tik om te skep.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -204,12 +205,16 @@ class SfLocalizationsAm extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'የሥራ ሳምንት';
 
   @override
+  String get daySpanCountLabel => r'ቀን';
+
+  @override
   String get dhualhiLabel => r'ዱል ሂጃህ';
 
   @override
   String get dhualqiLabel => r'ዱ አል-ቂዳህ';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'ዕቃዎች';
 
   @override
@@ -271,9 +276,6 @@ class SfLocalizationsAm extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'ሳፋር';
-
-  @override
-  String get scheduleViewNewEventLabel => r'የታቀደ ምንም ነገር የለም ፡፡ ለመፍጠር መታ ያድርጉ።';
 
   @override
   String get shaabanLabel => r'ሻአባን';
@@ -358,12 +360,16 @@ class SfLocalizationsAr extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'أسبوع العمل';
 
   @override
+  String get daySpanCountLabel => r'يوم';
+
+  @override
   String get dhualhiLabel => r'ذو الحجة';
 
   @override
   String get dhualqiLabel => r'ذو القعدة';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'العناصر';
 
   @override
@@ -425,9 +431,6 @@ class SfLocalizationsAr extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'سفر';
-
-  @override
-  String get scheduleViewNewEventLabel => r'لا شيء مخطط. انقر للإنشاء.';
 
   @override
   String get shaabanLabel => r'شعبان';
@@ -513,12 +516,16 @@ class SfLocalizationsAz extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'İş həftəsi';
 
   @override
+  String get daySpanCountLabel => r'Gün';
+
+  @override
   String get dhualhiLabel => r'Zül-hiccə';
 
   @override
   String get dhualqiLabel => r'Zülqüda';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'maddələr';
 
   @override
@@ -581,10 +588,6 @@ class SfLocalizationsAz extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Səfər';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Heç bir şey planlaşdırılmamışdır. Yaratmaq üçün vurun.';
 
   @override
   String get shaabanLabel => r'Şəban';
@@ -669,12 +672,16 @@ class SfLocalizationsBe extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Працоўны тыдзень';
 
   @override
+  String get daySpanCountLabel => r'Дзень';
+
+  @override
   String get dhualhiLabel => r'Джу аль-Хіджа';
 
   @override
   String get dhualqiLabel => r'Ду аль-Кіда';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'прадметы';
 
   @override
@@ -737,10 +744,6 @@ class SfLocalizationsBe extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Сафар';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Нічога не планавалася. Націсніце, каб стварыць.';
 
   @override
   String get shaabanLabel => r'Шаабан';
@@ -826,12 +829,16 @@ class SfLocalizationsBg extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Работна седмица';
 
   @override
+  String get daySpanCountLabel => r'Ден';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'елементи';
 
   @override
@@ -893,10 +900,6 @@ class SfLocalizationsBg extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Сафар';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Нищо не е планирано. Докоснете, за да създадете.';
 
   @override
   String get shaabanLabel => r'Шаабан';
@@ -981,12 +984,16 @@ class SfLocalizationsBn extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'কর্ম সপ্তাহ';
 
   @override
+  String get daySpanCountLabel => r'দিন';
+
+  @override
   String get dhualhiLabel => r'ধূ আল-হিজাহ';
 
   @override
   String get dhualqiLabel => r'ধু আল-কিয়াদাহ';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'আইটেম';
 
   @override
@@ -1048,10 +1055,6 @@ class SfLocalizationsBn extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'সাফার';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'কিছুই পরিকল্পনা করা হয়নি। তৈরি করতে আলতো চাপুন।';
 
   @override
   String get shaabanLabel => r'শাবান';
@@ -1136,12 +1139,16 @@ class SfLocalizationsBs extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Radna sedmica';
 
   @override
+  String get daySpanCountLabel => r'Dan';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'predmeta';
 
   @override
@@ -1203,10 +1210,6 @@ class SfLocalizationsBs extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Ništa planirano. Dodirnite za stvaranje.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -1292,12 +1295,16 @@ class SfLocalizationsCa extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Setmana laboral';
 
   @override
+  String get daySpanCountLabel => r'Dia';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'articles';
 
   @override
@@ -1360,9 +1367,6 @@ class SfLocalizationsCa extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'Res previst. Toca per crear.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -1448,12 +1452,16 @@ class SfLocalizationsCs extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Pracovní týden';
 
   @override
+  String get daySpanCountLabel => r'Den';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'položky';
 
   @override
@@ -1515,10 +1523,6 @@ class SfLocalizationsCs extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Nic nebylo plánováno. Klepnutím vytvoříte.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -1603,12 +1607,16 @@ class SfLocalizationsDa extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Arbejdsuge';
 
   @override
+  String get daySpanCountLabel => r'Dag';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'genstande';
 
   @override
@@ -1670,10 +1678,6 @@ class SfLocalizationsDa extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Intet planlagt. Tryk for at oprette.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -1758,12 +1762,16 @@ class SfLocalizationsDe extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Arbeitswoche';
 
   @override
+  String get daySpanCountLabel => r'Tag';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'Artikel';
 
   @override
@@ -1826,10 +1834,6 @@ class SfLocalizationsDe extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Nichts geplant. Tippen Sie zum Erstellen auf.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -1915,12 +1919,16 @@ class SfLocalizationsEl extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Εβδομάδα εργασίας';
 
   @override
+  String get daySpanCountLabel => r'Ημέρα';
+
+  @override
   String get dhualhiLabel => r'Ντου αλ Χιτζάτζ';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'αντικείμενα';
 
   @override
@@ -1983,10 +1991,6 @@ class SfLocalizationsEl extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Σαφάρι';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Τίποτα δεν έχει προγραμματιστεί. Πατήστε για δημιουργία.';
 
   @override
   String get shaabanLabel => r'Σααμπάν';
@@ -2071,12 +2075,16 @@ class SfLocalizationsEn extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Work Week';
 
   @override
+  String get daySpanCountLabel => r'Day';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'items';
 
   @override
@@ -2138,9 +2146,6 @@ class SfLocalizationsEn extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'Nothing planned. Tap to create.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -2226,12 +2231,16 @@ class SfLocalizationsEs extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Semana de trabajo';
 
   @override
+  String get daySpanCountLabel => r'Día';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'artículos';
 
   @override
@@ -2293,9 +2302,6 @@ class SfLocalizationsEs extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'Nada planeado. Toque para crear.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -2380,12 +2386,16 @@ class SfLocalizationsEt extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Töönädal';
 
   @override
+  String get daySpanCountLabel => r'Päev';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'esemed';
 
   @override
@@ -2447,10 +2457,6 @@ class SfLocalizationsEt extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Midagi pole plaanitud. Puudutage loomiseks.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -2535,12 +2541,16 @@ class SfLocalizationsEu extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Lan Astea';
 
   @override
+  String get daySpanCountLabel => r'Eguna';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'elementuak';
 
   @override
@@ -2603,10 +2613,6 @@ class SfLocalizationsEu extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Ezer ez dago aurreikusita. Sakatu sortzeko.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -2691,12 +2697,16 @@ class SfLocalizationsFa extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'هفته کاری';
 
   @override
+  String get daySpanCountLabel => r'روز';
+
+  @override
   String get dhualhiLabel => r'ذو الحجه';
 
   @override
   String get dhualqiLabel => r'ذو القعده';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'موارد';
 
   @override
@@ -2758,10 +2768,6 @@ class SfLocalizationsFa extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'صفر';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'هیچ چیز برنامه ریزی نشده برای ایجاد ضربه بزنید.';
 
   @override
   String get shaabanLabel => r'شعبان';
@@ -2846,12 +2852,16 @@ class SfLocalizationsFi extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Työviikko';
 
   @override
+  String get daySpanCountLabel => r'Päivä';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'kohteita';
 
   @override
@@ -2913,10 +2923,6 @@ class SfLocalizationsFi extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safari';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Ei mitään suunniteltua. Napauta luoda.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -3002,12 +3008,16 @@ class SfLocalizationsFil extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Linggo ng trabaho';
 
   @override
+  String get daySpanCountLabel => r'Araw';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'mga item';
 
   @override
@@ -3070,9 +3080,6 @@ class SfLocalizationsFil extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'Walang plano. I-tap upang lumikha.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -3158,12 +3165,16 @@ class SfLocalizationsFr extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Semaine de travail';
 
   @override
+  String get daySpanCountLabel => r'Jour';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'articles';
 
   @override
@@ -3226,9 +3237,6 @@ class SfLocalizationsFr extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'Rien de prévu. Appuyez pour créer.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -3314,12 +3322,16 @@ class SfLocalizationsGl extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Semana do Traballo';
 
   @override
+  String get daySpanCountLabel => r'Día';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'elementos';
 
   @override
@@ -3382,9 +3394,6 @@ class SfLocalizationsGl extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'Nada previsto. Toca para crear.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -3469,12 +3478,16 @@ class SfLocalizationsGu extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'વર્ક વીક';
 
   @override
+  String get daySpanCountLabel => r'દિવસ';
+
+  @override
   String get dhualhiLabel => r'ધુ અલ-હિજ્જા';
 
   @override
   String get dhualqiLabel => r'ધુ અલ-કિયાદહ';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'વસ્તુઓ';
 
   @override
@@ -3536,10 +3549,6 @@ class SfLocalizationsGu extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'સફર';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'કશું આયોજન કરેલ નથી. બનાવવા માટે ટેપ કરો.';
 
   @override
   String get shaabanLabel => r'શઆબન';
@@ -3624,12 +3633,16 @@ class SfLocalizationsHe extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'שבוע עבודה';
 
   @override
+  String get daySpanCountLabel => r'יְוֹם';
+
+  @override
   String get dhualhiLabel => r'דהו אל-חיג' "'" r'ה';
 
   @override
   String get dhualqiLabel => r'דהו אל-קי' "'" r'דה';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'פריטים';
 
   @override
@@ -3691,9 +3704,6 @@ class SfLocalizationsHe extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'ספאר';
-
-  @override
-  String get scheduleViewNewEventLabel => r'שום דבר לא מתוכנן. הקש כדי ליצור.';
 
   @override
   String get shaabanLabel => r'שעבאן';
@@ -3778,12 +3788,16 @@ class SfLocalizationsHi extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'कार्य सप्ताह';
 
   @override
+  String get daySpanCountLabel => r'दिन';
+
+  @override
   String get dhualhiLabel => r'धू अल-हिज्जाह';
 
   @override
   String get dhualqiLabel => r'धू अल-कियूबाह';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'आइटम';
 
   @override
@@ -3845,10 +3859,6 @@ class SfLocalizationsHi extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'सफ़र';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'कुछ भी प्लान नहीं किया। बनाने के लिए टैप करें।';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -3933,12 +3943,16 @@ class SfLocalizationsHr extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Radni tjedan';
 
   @override
+  String get daySpanCountLabel => r'Dan';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hidždža';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'predmeta';
 
   @override
@@ -4000,10 +4014,6 @@ class SfLocalizationsHr extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Ništa planirano. Dodirnite za stvaranje.';
 
   @override
   String get shaabanLabel => r'Ša' "'" r'aban';
@@ -4088,12 +4098,16 @@ class SfLocalizationsHu extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Munkahét';
 
   @override
+  String get daySpanCountLabel => r'Nap';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hidzsáh';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'elemeket';
 
   @override
@@ -4156,10 +4170,6 @@ class SfLocalizationsHu extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Szafar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Semmi sem tervezett. Koppintson a létrehozáshoz.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -4245,12 +4255,16 @@ class SfLocalizationsHy extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Աշխատանքային շաբաթ';
 
   @override
+  String get daySpanCountLabel => r'Օր';
+
+  @override
   String get dhualhiLabel => r'Huու ալ-Հիջա';
 
   @override
   String get dhualqiLabel => r'Դհու ալ-Քիդա';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'իրեր';
 
   @override
@@ -4312,10 +4326,6 @@ class SfLocalizationsHy extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Սաֆար';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Ոչինչ նախատեսված չէ: Հպեք ՝ ստեղծելու համար:';
 
   @override
   String get shaabanLabel => r'Շաաբան';
@@ -4400,12 +4410,16 @@ class SfLocalizationsId extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Minggu Kerja';
 
   @override
+  String get daySpanCountLabel => r'Hari';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'item';
 
   @override
@@ -4467,10 +4481,6 @@ class SfLocalizationsId extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Tidak ada yang direncanakan. Ketuk untuk membuat.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -4555,12 +4565,16 @@ class SfLocalizationsIs extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Vinnuvika';
 
   @override
+  String get daySpanCountLabel => r'Dagur';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'hlutir';
 
   @override
@@ -4622,10 +4636,6 @@ class SfLocalizationsIs extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Ekkert skipulagt. Pikkaðu á til að búa til.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -4710,12 +4720,16 @@ class SfLocalizationsIt extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Settimana di lavoro';
 
   @override
+  String get daySpanCountLabel => r'Giorno';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'elementi';
 
   @override
@@ -4778,10 +4792,6 @@ class SfLocalizationsIt extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Niente in programma. Tocca per creare.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -4866,12 +4876,16 @@ class SfLocalizationsJa extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'労働週';
 
   @override
+  String get daySpanCountLabel => r'日';
+
+  @override
   String get dhualhiLabel => r'ズル・ヒッジャ';
 
   @override
   String get dhualqiLabel => r'ズル・カイダ';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'アイテム';
 
   @override
@@ -4935,16 +4949,13 @@ class SfLocalizationsJa extends SfGlobalLocalizations {
   String get safarLabel => r'サファル';
 
   @override
-  String get scheduleViewNewEventLabel => r'何も計画されていません。タップして作成します。';
-
-  @override
   String get shaabanLabel => r'シャアバーン';
 
   @override
   String get shawwalLabel => r'Shawwal';
 
   @override
-  String get shortDhualhiLabel => r'ズル・カイダ';
+  String get shortDhualhiLabel => r'Dhu' "'" r'l-H';
 
   @override
   String get shortDhualqiLabel => r'ズル・カイダ';
@@ -5020,12 +5031,16 @@ class SfLocalizationsKa extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Სამუშაო კვირა';
 
   @override
+  String get daySpanCountLabel => r'Დღეს';
+
+  @override
   String get dhualhiLabel => r'დუ ალ-ჰიჯა';
 
   @override
   String get dhualqiLabel => r'დუ ალ-ქიდა';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'საგნები';
 
   @override
@@ -5087,10 +5102,6 @@ class SfLocalizationsKa extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'საფარი';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'არაფერია დაგეგმილი. შეეხეთ შესაქმნელად.';
 
   @override
   String get shaabanLabel => r'შააბანი';
@@ -5175,12 +5186,16 @@ class SfLocalizationsKk extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Жұмыс аптасы';
 
   @override
+  String get daySpanCountLabel => r'Күн';
+
+  @override
   String get dhualhiLabel => r'Зуль-Хиджа';
 
   @override
   String get dhualqiLabel => r'Зуль-әл-Қида';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'заттар';
 
   @override
@@ -5242,10 +5257,6 @@ class SfLocalizationsKk extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Сафар';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Ештеңе жоспарланбаған. Жасау үшін түртіңіз.';
 
   @override
   String get shaabanLabel => r'Шаабан';
@@ -5330,12 +5341,16 @@ class SfLocalizationsKm extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'សប្តាហ៍ការងារ';
 
   @override
+  String get daySpanCountLabel => r'ថ្ងៃ';
+
+  @override
   String get dhualhiLabel => r'ឌូអាល់ហីចា';
 
   @override
   String get dhualqiLabel => r'ឌូអាល់ឈីឌា';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'របស់របរ';
 
   @override
@@ -5397,10 +5412,6 @@ class SfLocalizationsKm extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'គ្មានអ្វីដែលបានគ្រោងទុក។ ប៉ះដើម្បីបង្កើត។';
 
   @override
   String get shaabanLabel => r'សាអាបាន';
@@ -5492,6 +5503,9 @@ class SfLocalizationsKn extends SfGlobalLocalizations {
       '\u{c95}\u{cc6}\u{cb2}\u{cb8}\u{ca6}\u{20}\u{cb5}\u{cbe}\u{cb0}';
 
   @override
+  String get daySpanCountLabel => '\u{ca6}\u{cbf}\u{ca8}';
+
+  @override
   String get dhualhiLabel =>
       '\u{ca7}\u{cc1}\u{20}\u{c85}\u{cb2}\u{ccd}\u{2d}\u{cb9}\u{cbf}\u{c9c}\u{ccd}\u{c9c}\u{cbe}';
 
@@ -5500,6 +5514,7 @@ class SfLocalizationsKn extends SfGlobalLocalizations {
       '\u{ca7}\u{cc1}\u{20}\u{c85}\u{cb2}\u{ccd}\u{2d}\u{c96}\u{cbf}\u{ca6}\u{cbe}';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel =>
       '\u{cb5}\u{cb8}\u{ccd}\u{ca4}\u{cc1}\u{c97}\u{cb3}\u{cc1}';
 
@@ -5575,10 +5590,6 @@ class SfLocalizationsKn extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => '\u{cb8}\u{cab}\u{cb0}\u{ccd}';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      '\u{caf}\u{cbe}\u{cb5}\u{cc1}\u{ca6}\u{ca8}\u{ccd}\u{ca8}\u{cc2}\u{20}\u{caf}\u{ccb}\u{c9c}\u{cbf}\u{cb8}\u{cbf}\u{cb2}\u{ccd}\u{cb2}\u{2e}\u{20}\u{cb0}\u{c9a}\u{cbf}\u{cb8}\u{cb2}\u{cc1}\u{20}\u{c9f}\u{ccd}\u{caf}\u{cbe}\u{caa}\u{ccd}\u{20}\u{cae}\u{cbe}\u{ca1}\u{cbf}\u{2e}';
 
   @override
   String get shaabanLabel => '\u{cb6}\u{cbe}\u{cac}\u{cbe}\u{ca8}\u{ccd}';
@@ -5670,12 +5681,16 @@ class SfLocalizationsKo extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'작업 주';
 
   @override
+  String get daySpanCountLabel => r'일';
+
+  @override
   String get dhualhiLabel => r'두 알 히자';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'항목';
 
   @override
@@ -5737,9 +5752,6 @@ class SfLocalizationsKo extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'사 파르';
-
-  @override
-  String get scheduleViewNewEventLabel => r'계획된 것이 없습니다. 만들려면 탭하세요.';
 
   @override
   String get shaabanLabel => r'샤아 반';
@@ -5824,12 +5836,16 @@ class SfLocalizationsKy extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Жумуш аптасы';
 
   @override
+  String get daySpanCountLabel => r'Күн';
+
+  @override
   String get dhualhiLabel => r'Зуль-Хиджа';
 
   @override
   String get dhualqiLabel => r'Zhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'буюмдар';
 
   @override
@@ -5892,10 +5908,6 @@ class SfLocalizationsKy extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Сафар';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Эч нерсе пландаштырылган эмес. Түзүү үчүн таптап коюңуз.';
 
   @override
   String get shaabanLabel => r'Шаабан';
@@ -5980,12 +5992,16 @@ class SfLocalizationsLo extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'ອາທິດເຮັດວຽກ';
 
   @override
+  String get daySpanCountLabel => r'ມື້';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'ລາຍການ';
 
   @override
@@ -6047,9 +6063,6 @@ class SfLocalizationsLo extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'ບໍ່ມີຫຍັງວາງແຜນ. ແຕະເພື່ອສ້າງ.';
 
   @override
   String get shaabanLabel => r'ຊາ' "'" r'aban';
@@ -6134,12 +6147,16 @@ class SfLocalizationsLt extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Darbo savaitė';
 
   @override
+  String get daySpanCountLabel => r'Diena';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'daiktų';
 
   @override
@@ -6201,10 +6218,6 @@ class SfLocalizationsLt extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safaras';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Nieko neplanuota. Palieskite, kad sukurtumėte.';
 
   @override
   String get shaabanLabel => r'Šaabanas';
@@ -6289,12 +6302,16 @@ class SfLocalizationsLv extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Darba nedēļa';
 
   @override
+  String get daySpanCountLabel => r'Diena';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'preces';
 
   @override
@@ -6356,10 +6373,6 @@ class SfLocalizationsLv extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safārs';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Nekas nav plānots. Pieskarieties, lai izveidotu.';
 
   @override
   String get shaabanLabel => r'Šaabans';
@@ -6444,12 +6457,16 @@ class SfLocalizationsMk extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Работна недела';
 
   @override
+  String get daySpanCountLabel => r'Ден';
+
+  @override
   String get dhualhiLabel => r'Huу ал-хиџа';
 
   @override
   String get dhualqiLabel => r'Huу ал-Кида';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'предмети';
 
   @override
@@ -6511,10 +6528,6 @@ class SfLocalizationsMk extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Сафар';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Ништо не е планирано. Допрете за да создадете.';
 
   @override
   String get shaabanLabel => r'Шаабан';
@@ -6599,12 +6612,16 @@ class SfLocalizationsMl extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'പ്രവൃത്തി ആഴ്ച';
 
   @override
+  String get daySpanCountLabel => r'ദിവസം';
+
+  @override
   String get dhualhiLabel => r'ധു അൽ ഹിജ';
 
   @override
   String get dhualqiLabel => r'ധു അൽ ക്വിദ';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'ഇനങ്ങൾ';
 
   @override
@@ -6666,10 +6683,6 @@ class SfLocalizationsMl extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'സഫർ';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'ഒന്നും ആസൂത്രണം ചെയ്തിട്ടില്ല. സൃഷ്ടിക്കാൻ ടാപ്പുചെയ്യുക.';
 
   @override
   String get shaabanLabel => r'ഷാബാൻ';
@@ -6754,12 +6767,16 @@ class SfLocalizationsMn extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Ажлын долоо хоног';
 
   @override
+  String get daySpanCountLabel => r'Өдөр';
+
+  @override
   String get dhualhiLabel => r'Зу аль-Хижжа';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'зүйлс';
 
   @override
@@ -6821,10 +6838,6 @@ class SfLocalizationsMn extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Сафар';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Төлөвлөсөн зүйл алга. Үүсгэхийн тулд товшино уу.';
 
   @override
   String get shaabanLabel => r'Шаабан';
@@ -6909,12 +6922,16 @@ class SfLocalizationsMr extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'कामाचा आठवडा';
 
   @override
+  String get daySpanCountLabel => r'दिवस';
+
+  @override
   String get dhualhiLabel => r'धु अल-हिज्जा';
 
   @override
   String get dhualqiLabel => r'धु अल-कायदा';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'आयटम';
 
   @override
@@ -6976,10 +6993,6 @@ class SfLocalizationsMr extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'सफार';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'काहीही नियोजित नाही. तयार करण्यासाठी टॅप करा.';
 
   @override
   String get shaabanLabel => r'शाबान';
@@ -7064,12 +7077,16 @@ class SfLocalizationsMs extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Minggu Kerja';
 
   @override
+  String get daySpanCountLabel => r'Hari';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'barang';
 
   @override
@@ -7131,10 +7148,6 @@ class SfLocalizationsMs extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Tidak ada yang dirancang. Ketik untuk membuat.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -7219,12 +7232,16 @@ class SfLocalizationsMy extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'အလုပ်ရက်သတ္တပတ်';
 
   @override
+  String get daySpanCountLabel => r'နေ့';
+
+  @override
   String get dhualhiLabel => r'Dhu Al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'ပစ္စည်းတွေ';
 
   @override
@@ -7286,9 +7303,6 @@ class SfLocalizationsMy extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'အစီအစဉ်မရှိ ဖန်တီးရန်ကိုအသာပုတ်ပါ။';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -7373,12 +7387,16 @@ class SfLocalizationsNb extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Arbeidsuke';
 
   @override
+  String get daySpanCountLabel => r'Dag';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'gjenstander';
 
   @override
@@ -7440,10 +7458,6 @@ class SfLocalizationsNb extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Ingenting planlagt. Trykk for å opprette.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -7528,12 +7542,16 @@ class SfLocalizationsNe extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'कार्य सप्ताह';
 
   @override
+  String get daySpanCountLabel => r'दिन';
+
+  @override
   String get dhualhiLabel => r'धु अल-हिज्जा';
 
   @override
   String get dhualqiLabel => r'धु अल Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'वस्तुहरू';
 
   @override
@@ -7596,10 +7614,6 @@ class SfLocalizationsNe extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'सफार';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'केहि योजना गरिएको छैन। सिर्जना गर्न ट्याप गर्नुहोस्।';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -7684,12 +7698,16 @@ class SfLocalizationsNl extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Werkweek';
 
   @override
+  String get daySpanCountLabel => r'Dag';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'artikelen';
 
   @override
@@ -7751,9 +7769,6 @@ class SfLocalizationsNl extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'Niets gepland. Tik om te maken.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -7838,12 +7853,16 @@ class SfLocalizationsPa extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'ਕੰਮ ਦਾ ਹਫ਼ਤਾ';
 
   @override
+  String get daySpanCountLabel => r'ਦਿਨ';
+
+  @override
   String get dhualhiLabel => r'ਧੂ ਅਲ-ਹਿਜਾਜਾ';
 
   @override
   String get dhualqiLabel => r'ਧੂ ਅਲ ਕਿਆਦਾਹ';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'ਇਕਾਈ';
 
   @override
@@ -7905,10 +7924,6 @@ class SfLocalizationsPa extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'ਸਫਾਰ';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'ਕੁਝ ਯੋਜਨਾਬੱਧ ਨਹੀਂ. ਬਣਾਉਣ ਲਈ ਟੈਪ ਕਰੋ.';
 
   @override
   String get shaabanLabel => r'ਸ਼ਾਅਾਨ';
@@ -7993,12 +8008,16 @@ class SfLocalizationsPl extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Tydzień pracy';
 
   @override
+  String get daySpanCountLabel => r'Dzień';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'przedmiotów';
 
   @override
@@ -8060,10 +8079,6 @@ class SfLocalizationsPl extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Nic nie zostało zaplanowane. Dotknij, aby utworzyć.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -8148,12 +8163,16 @@ class SfLocalizationsPs extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'کاري اونۍ';
 
   @override
+  String get daySpanCountLabel => r'ورځ';
+
+  @override
   String get dhualhiLabel => r'ذو الحجjah';
 
   @override
   String get dhualqiLabel => r'ذي القده';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'توکي';
 
   @override
@@ -8216,10 +8235,6 @@ class SfLocalizationsPs extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'صفر';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'هیڅ پلان شوی ندی د جوړولو لپاره ټایپ کړئ.';
 
   @override
   String get shaabanLabel => r'شعبان';
@@ -8305,12 +8320,16 @@ class SfLocalizationsPt extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Semana de trabalho';
 
   @override
+  String get daySpanCountLabel => r'Dia';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'Itens';
 
   @override
@@ -8372,9 +8391,6 @@ class SfLocalizationsPt extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'Nada planejado. Toque para criar.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -8494,12 +8510,16 @@ class SfLocalizationsRo extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Saptamana de lucru';
 
   @override
+  String get daySpanCountLabel => r'Zi';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'obiecte';
 
   @override
@@ -8562,10 +8582,6 @@ class SfLocalizationsRo extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Nimic planificat. Atingeți pentru a crea.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -8650,12 +8666,16 @@ class SfLocalizationsRu extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Рабочая неделя';
 
   @override
+  String get daySpanCountLabel => r'День';
+
+  @override
   String get dhualhiLabel => r'Зу аль-Хиджа';
 
   @override
   String get dhualqiLabel => r'Зу аль-Киада';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'Предметы';
 
   @override
@@ -8718,10 +8738,6 @@ class SfLocalizationsRu extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Сафар';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Ничего не запланировано. Нажмите, чтобы создать.';
 
   @override
   String get shaabanLabel => r'Шаабан';
@@ -8806,12 +8822,16 @@ class SfLocalizationsSi extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'වැඩ සතිය';
 
   @override
+  String get daySpanCountLabel => r'දින';
+
+  @override
   String get dhualhiLabel => r'ධු අල් හිජ්ජා';
 
   @override
   String get dhualqiLabel => r'ධු අල්-කයිඩා';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'අයිතම';
 
   @override
@@ -8873,10 +8893,6 @@ class SfLocalizationsSi extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'සෆාර්';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'කිසිවක් සැලසුම් කර නැත. නිර්මාණය කිරීමට තට්ටු කරන්න.';
 
   @override
   String get shaabanLabel => r'ෂාබාන්';
@@ -8962,12 +8978,16 @@ class SfLocalizationsSk extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Pracovný týždeň';
 
   @override
+  String get daySpanCountLabel => r'Deň';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'položky';
 
   @override
@@ -9029,10 +9049,6 @@ class SfLocalizationsSk extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Nič plánované. Klepnutím vytvoríte.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -9117,12 +9133,16 @@ class SfLocalizationsSl extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Delovni teden';
 
   @override
+  String get daySpanCountLabel => r'Dan';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'predmetov';
 
   @override
@@ -9184,10 +9204,6 @@ class SfLocalizationsSl extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Nič načrtovanega. Dotaknite se, če želite ustvariti.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -9273,12 +9289,16 @@ class SfLocalizationsSq extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Java e Punës';
 
   @override
+  String get daySpanCountLabel => r'Dita';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hixhah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'sende';
 
   @override
@@ -9341,10 +9361,6 @@ class SfLocalizationsSq extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Asgjë e planifikuar. Trokit për të krijuar.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -9430,12 +9446,16 @@ class SfLocalizationsSr extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Радна недеља';
 
   @override
+  String get daySpanCountLabel => r'Дан';
+
+  @override
   String get dhualhiLabel => r'Дху ал-Хиџа';
 
   @override
   String get dhualqiLabel => r'Дху ал-Ки' "'" r'дах';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'предмета';
 
   @override
@@ -9497,10 +9517,6 @@ class SfLocalizationsSr extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Сафар';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Ништа планирано. Додирните да бисте креирали.';
 
   @override
   String get shaabanLabel => r'Сха' "'" r'абан';
@@ -9595,12 +9611,16 @@ class SfLocalizationsSv extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Arbetsvecka';
 
   @override
+  String get daySpanCountLabel => r'Dag';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'föremål';
 
   @override
@@ -9663,10 +9683,6 @@ class SfLocalizationsSv extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Inget planerat. Tryck för att skapa.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -9751,12 +9767,16 @@ class SfLocalizationsSw extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Wiki ya Kazi';
 
   @override
+  String get daySpanCountLabel => r'Siku';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'vitu';
 
   @override
@@ -9818,10 +9838,6 @@ class SfLocalizationsSw extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Hakuna kilichopangwa. Gonga ili uunde.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -9906,12 +9922,16 @@ class SfLocalizationsTa extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'வேலை வாரம்';
 
   @override
+  String get daySpanCountLabel => r'நாள்';
+
+  @override
   String get dhualhiLabel => r'து அல்-ஹிஜ்ஜா';
 
   @override
   String get dhualqiLabel => r'து அல்-கிதா';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'பொருட்களை';
 
   @override
@@ -9973,10 +9993,6 @@ class SfLocalizationsTa extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'சஃபர்';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'எதுவும் திட்டமிடப்படவில்லை. உருவாக்க தட்டவும்.';
 
   @override
   String get shaabanLabel => r'ஷாஅபன்';
@@ -10061,12 +10077,16 @@ class SfLocalizationsTe extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'పని వారం';
 
   @override
+  String get daySpanCountLabel => r'రోజు';
+
+  @override
   String get dhualhiLabel => r'ధు అల్-హిజ్జా';
 
   @override
   String get dhualqiLabel => r'ధు అల్-ఖిదా';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'అంశాలు';
 
   @override
@@ -10129,10 +10149,6 @@ class SfLocalizationsTe extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'సఫర్';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'ఏమీ ప్లాన్ చేయలేదు. సృష్టించడానికి నొక్కండి.';
 
   @override
   String get shaabanLabel => r'షాబాన్';
@@ -10217,12 +10233,16 @@ class SfLocalizationsTh extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'สัปดาห์การทำงาน';
 
   @override
+  String get daySpanCountLabel => r'วัน';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'รายการ';
 
   @override
@@ -10284,10 +10304,6 @@ class SfLocalizationsTh extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'ไม่มีอะไรที่วางแผนไว้ แตะเพื่อสร้าง';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -10373,12 +10389,16 @@ class SfLocalizationsTl extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Linggo ng trabaho';
 
   @override
+  String get daySpanCountLabel => r'Araw';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'mga item';
 
   @override
@@ -10441,9 +10461,6 @@ class SfLocalizationsTl extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'Walang plano. I-tap upang lumikha.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -10529,12 +10546,16 @@ class SfLocalizationsTr extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Çalışma haftası';
 
   @override
+  String get daySpanCountLabel => r'Gün';
+
+  @override
   String get dhualhiLabel => r'Zilhicce';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'öğeler';
 
   @override
@@ -10596,10 +10617,6 @@ class SfLocalizationsTr extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Hiçbir şey planlanmadı. Oluşturmak için dokunun.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -10684,12 +10701,16 @@ class SfLocalizationsUk extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Робочий тиждень';
 
   @override
+  String get daySpanCountLabel => r'День';
+
+  @override
   String get dhualhiLabel => r'Дху аль-Хіджа';
 
   @override
   String get dhualqiLabel => r'Дху аль-Кіда';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'предметів';
 
   @override
@@ -10751,10 +10772,6 @@ class SfLocalizationsUk extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Сафар';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Нічого не планувалося. Торкніться, щоб створити.';
 
   @override
   String get shaabanLabel => r'Шаабан';
@@ -10839,12 +10856,16 @@ class SfLocalizationsUr extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'کام کا ہفتہ';
 
   @override
+  String get daySpanCountLabel => r'دن';
+
+  @override
   String get dhualhiLabel => r'ذو الحجہ';
 
   @override
   String get dhualqiLabel => r'ذو الکعدہ';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'اشیاء';
 
   @override
@@ -10907,10 +10928,6 @@ class SfLocalizationsUr extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'صفر';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'کچھ بھی منصوبہ بند نہیں ہے۔ بنانے کے لئے تھپتھپائیں۔';
 
   @override
   String get shaabanLabel => r'شعبان';
@@ -10996,12 +11013,16 @@ class SfLocalizationsUz extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Ish haftasi';
 
   @override
+  String get daySpanCountLabel => r'Kun';
+
+  @override
   String get dhualhiLabel => r'Zul al-Hijja';
 
   @override
   String get dhualqiLabel => r'Zul al-Qida';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'buyumlar';
 
   @override
@@ -11064,10 +11085,6 @@ class SfLocalizationsUz extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Hech narsa rejalashtirilmagan. Yaratish uchun bosing.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'bon';
@@ -11152,12 +11169,16 @@ class SfLocalizationsVi extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Tuần làm việc';
 
   @override
+  String get daySpanCountLabel => r'ngày';
+
+  @override
   String get dhualhiLabel => r'Dhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'Dhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'mặt hàng';
 
   @override
@@ -11219,9 +11240,6 @@ class SfLocalizationsVi extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'Safar';
-
-  @override
-  String get scheduleViewNewEventLabel => r'Không có kế hoạch gì. Nhấn để tạo.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -11306,12 +11324,16 @@ class SfLocalizationsZh extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'工作周';
 
   @override
+  String get daySpanCountLabel => r'天';
+
+  @override
   String get dhualhiLabel => r'杜·希贾';
 
   @override
   String get dhualqiLabel => r'齐达';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'项目';
 
   @override
@@ -11373,9 +11395,6 @@ class SfLocalizationsZh extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'萨法尔';
-
-  @override
-  String get scheduleViewNewEventLabel => r'没有计划。点击创建。';
 
   @override
   String get shaabanLabel => r'沙阿班';
@@ -11518,9 +11537,6 @@ class SfLocalizationsZhHant extends SfLocalizationsZh {
   String get safarLabel => r'薩法爾';
 
   @override
-  String get scheduleViewNewEventLabel => r'沒有計劃。點擊創建。';
-
-  @override
   String get shawwalLabel => r'肖瓦爾';
 
   @override
@@ -11584,12 +11600,16 @@ class SfLocalizationsZu extends SfGlobalLocalizations {
   String get allowedViewWorkWeekLabel => r'Isonto Lokusebenza';
 
   @override
+  String get daySpanCountLabel => r'Usuku';
+
+  @override
   String get dhualhiLabel => r'UDhu al-Hijjah';
 
   @override
   String get dhualqiLabel => r'UDhu al-Qi' "'" r'dah';
 
   @override
+  // ignore: override_on_non_overriding_member
   String get itemsDataPagerLabel => r'izinto';
 
   @override
@@ -11651,10 +11671,6 @@ class SfLocalizationsZu extends SfGlobalLocalizations {
 
   @override
   String get safarLabel => r'I-Safar';
-
-  @override
-  String get scheduleViewNewEventLabel =>
-      r'Akukho okuhleliwe. Thepha ukuze udale.';
 
   @override
   String get shaabanLabel => r'Sha' "'" r'aban';
@@ -11869,7 +11885,7 @@ final Set<String> kSyncfusionSupportedLanguages =
 ///
 /// Generally speaking, this method is only intended to be used by
 /// [SfGlobalLocalizations.delegate].
-SfGlobalLocalizations getSyncfusionTranslation(
+SfGlobalLocalizations? getSyncfusionTranslation(
   Locale locale,
 ) {
   switch (locale.languageCode) {

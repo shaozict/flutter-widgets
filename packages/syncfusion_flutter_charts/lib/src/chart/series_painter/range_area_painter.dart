@@ -2,12 +2,12 @@ part of charts;
 
 class _RangeAreaChartPainter extends CustomPainter {
   _RangeAreaChartPainter(
-      {this.chartState,
-      this.seriesRenderer,
-      this.isRepaint,
-      this.animationController,
-      this.painterKey,
-      ValueNotifier<num> notifier})
+      {required this.chartState,
+      required this.seriesRenderer,
+      required this.isRepaint,
+      required this.animationController,
+      required this.painterKey,
+      required ValueNotifier<num> notifier})
       : chart = chartState._chart,
         super(repaint: notifier);
   final SfCartesianChartState chartState;
@@ -20,23 +20,28 @@ class _RangeAreaChartPainter extends CustomPainter {
   /// Painter method for range area series
   @override
   void paint(Canvas canvas, Size size) {
-    final RangeAreaSeries<dynamic, dynamic> series = seriesRenderer._series;
+    final RangeAreaSeries<dynamic, dynamic> series =
+        seriesRenderer._series as RangeAreaSeries;
     Rect clipRect;
-    final ChartAxisRenderer xAxisRenderer = seriesRenderer._xAxisRenderer;
-    final ChartAxisRenderer yAxisRenderer = seriesRenderer._yAxisRenderer;
-    CartesianSeriesRenderer oldSeriesRenderer;
+    final ChartAxisRenderer xAxisRenderer = seriesRenderer._xAxisRenderer!;
+    final ChartAxisRenderer yAxisRenderer = seriesRenderer._yAxisRenderer!;
+    CartesianSeriesRenderer? oldSeriesRenderer;
     final List<CartesianChartPoint<dynamic>> dataPoints =
         seriesRenderer._dataPoints;
-    CartesianChartPoint<dynamic> point, prevPoint, oldPoint;
+    CartesianChartPoint<dynamic>? point, prevPoint, oldPoint;
     final Path _path = Path();
-    _ChartLocation currentPointLow, currentPointHigh, oldPointLow, oldPointHigh;
-    num currentLowX, currentLowY, currentHighX, currentHighY;
+    _ChartLocation? currentPointLow,
+        currentPointHigh,
+        oldPointLow,
+        oldPointHigh;
+    double currentLowX, currentLowY, currentHighX, currentHighY;
     double animationFactor;
     final Path _borderPath = Path();
     RangeAreaSegment rangeAreaSegment;
     final List<Offset> _points = <Offset>[];
-    if (seriesRenderer._visible) {
+    if (seriesRenderer._visible!) {
       assert(
+          // ignore: unnecessary_null_comparison
           series.animationDuration != null
               ? series.animationDuration >= 0
               : true,
@@ -57,7 +62,7 @@ class _RangeAreaChartPainter extends CustomPainter {
           chartState, seriesRenderer, seriesIndex, oldSeriesRenderers);
 
       animationFactor = seriesRenderer._seriesAnimation != null
-          ? seriesRenderer._seriesAnimation.value
+          ? seriesRenderer._seriesAnimation!.value
           : 1;
       if (seriesRenderer._reAnimate ||
           ((!(chartState._widgetNeedUpdate || chartState._isLegendToggled) ||
@@ -67,7 +72,7 @@ class _RangeAreaChartPainter extends CustomPainter {
             chartState, xAxisRenderer._axis, canvas, animationFactor);
       }
       if (seriesRenderer._visibleDataPoints == null ||
-          seriesRenderer._visibleDataPoints.isNotEmpty) {
+          seriesRenderer._visibleDataPoints!.isNotEmpty) {
         seriesRenderer._visibleDataPoints = <CartesianChartPoint<dynamic>>[];
       }
       for (int pointIndex = 0; pointIndex < dataPoints.length; pointIndex++) {
@@ -87,16 +92,16 @@ class _RangeAreaChartPainter extends CustomPainter {
             oldPointLow = _calculatePoint(
                 oldPoint.xValue,
                 oldPoint.low,
-                oldSeriesRenderer._xAxisRenderer,
-                oldSeriesRenderer._yAxisRenderer,
+                oldSeriesRenderer!._xAxisRenderer!,
+                oldSeriesRenderer._yAxisRenderer!,
                 isTransposed,
                 oldSeriesRenderer._series,
                 axisClipRect);
             oldPointHigh = _calculatePoint(
                 oldPoint.xValue,
                 oldPoint.high,
-                oldSeriesRenderer._xAxisRenderer,
-                oldSeriesRenderer._yAxisRenderer,
+                oldSeriesRenderer._xAxisRenderer!,
+                oldSeriesRenderer._yAxisRenderer!,
                 isTransposed,
                 oldSeriesRenderer._series,
                 axisClipRect);
@@ -110,10 +115,10 @@ class _RangeAreaChartPainter extends CustomPainter {
           _points.add(Offset(currentPointLow.x, currentPointLow.y));
           _points.add(Offset(currentPointHigh.x, currentPointHigh.y));
 
-          currentLowX = currentPointLow?.x;
-          currentLowY = currentPointLow?.y;
-          currentHighX = currentPointHigh?.x;
-          currentHighY = currentPointHigh?.y;
+          currentLowX = currentPointLow.x;
+          currentLowY = currentPointLow.y;
+          currentHighX = currentPointHigh.x;
+          currentHighY = currentPointHigh.y;
           if (oldPointLow != null) {
             if (chart.isTransposed) {
               currentLowX = _getAnimateValue(animationFactor, currentLowX,
@@ -174,16 +179,16 @@ class _RangeAreaChartPainter extends CustomPainter {
             oldPointLow = _calculatePoint(
                 oldPoint.xValue,
                 oldPoint.low,
-                oldSeriesRenderer._xAxisRenderer,
-                oldSeriesRenderer._yAxisRenderer,
+                oldSeriesRenderer!._xAxisRenderer!,
+                oldSeriesRenderer._yAxisRenderer!,
                 isTransposed,
                 oldSeriesRenderer._series,
                 axisClipRect);
             oldPointHigh = _calculatePoint(
                 oldPoint.xValue,
                 oldPoint.high,
-                oldSeriesRenderer._xAxisRenderer,
-                oldSeriesRenderer._yAxisRenderer,
+                oldSeriesRenderer._xAxisRenderer!,
+                oldSeriesRenderer._yAxisRenderer!,
                 isTransposed,
                 oldSeriesRenderer._series,
                 axisClipRect);
@@ -195,10 +200,10 @@ class _RangeAreaChartPainter extends CustomPainter {
           currentPointHigh = _calculatePoint(point.xValue, point.high,
               xAxisRenderer, yAxisRenderer, isTransposed, series, axisClipRect);
 
-          currentLowX = currentPointLow?.x;
-          currentLowY = currentPointLow?.y;
-          currentHighX = currentPointHigh?.x;
-          currentHighY = currentPointHigh?.y;
+          currentLowX = currentPointLow.x;
+          currentLowY = currentPointLow.y;
+          currentHighX = currentPointHigh.x;
+          currentHighY = currentPointHigh.y;
 
           if (oldPointLow != null) {
             if (chart.isTransposed) {
@@ -234,11 +239,12 @@ class _RangeAreaChartPainter extends CustomPainter {
           prevPoint = point;
         }
       }
-
+      // ignore: unnecessary_null_comparison
       if (_path != null &&
+          // ignore: unnecessary_null_comparison
           seriesRenderer._segments != null &&
           seriesRenderer._segments.isNotEmpty) {
-        rangeAreaSegment = seriesRenderer._segments[0];
+        rangeAreaSegment = seriesRenderer._segments[0] as RangeAreaSegment;
         seriesRenderer._drawSegment(
             canvas,
             rangeAreaSegment
@@ -260,10 +266,11 @@ class _RangeAreaChartPainter extends CustomPainter {
               xAxisRenderer._axis.plotOffset, yAxisRenderer._axis.plotOffset));
       canvas.restore();
       if ((series.animationDuration <= 0 ||
-              !chartState._initialRender ||
+              !chartState._initialRender! ||
               animationFactor >= chartState._seriesDurationFactor) &&
           (series.markerSettings.isVisible ||
               series.dataLabelSettings.isVisible)) {
+        // ignore: unnecessary_null_comparison
         assert(seriesRenderer != null,
             'The range area series should be available to render a marker on it.');
         canvas.clipRect(clipRect);
